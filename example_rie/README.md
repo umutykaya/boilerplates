@@ -1,8 +1,10 @@
 ## Example RIE
 
 ### Build & Run
-* docker build --tag myfunction .
-* docker run -p 9000:8080 myfunction:latest
+```bash
+docker build --tag myfunction .
+docker run -p 9000:8080 myfunction:latest
+```
 
 ### Testing
 ```bash
